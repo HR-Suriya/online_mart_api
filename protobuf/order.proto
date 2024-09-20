@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package order;
+
+message OrderPlaced {
+  int32 id = 1;
+  string product_name = 2;
+  int32 quantity = 3;
+}
